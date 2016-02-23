@@ -28,9 +28,9 @@ var quizJSON = {
           { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "When did the Beatles begin digitally stream their music?",
             "a": [
-                {"option": "2015",      "correct": false},
+                {"option": "2015",      "correct": true},
                 {"option": "2007",     "correct": false},
-                {"option": "2003",      "correct": true},
+                {"option": "2003",      "correct": false},
                 {"option": "2012",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
