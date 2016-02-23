@@ -113,5 +113,5 @@ p.digstreaming {
 }
 @media only screen and (max-width: 500px) {
   div.section {
-    font-size: 2em;
+    font-size: 1em;
   }
