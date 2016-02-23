@@ -1,0 +1,117 @@
+div.section {
+  color: white;
+  font-size: 2em;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+/* div.block-left {
+  display: inline-block;
+  float: left;
+  width: 47%;
+}
+
+div.block-right {
+  display: inline-block;
+  float: right;
+  width: 45%;
+} */
+
+
+div.slide1 {
+  color:black;
+  background-color: #BEE4F9;
+}
+
+div.slide2 {
+  background-color: #ffe066
+;
+}
+
+div.slide3 {
+  background-color: #fff0b3;
+}
+
+div.slide4 {
+  background-color: #fffae6;
+}
+
+div.section4 {
+  background-color: #99cc00;
+}
+
+div.inside-section {
+  padding: 10%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+div.indent-left{
+  padding-left: 1.4em;
+}
+
+div.indent-right{
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+}
+
+p.center {
+  text-align: center;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+}
+
+p.right {
+  text-align: right;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+}
+
+div.scrollingDiv{
+    /*background-color: #F5F5F5;*/
+    /*border: 1px solid #DDDDDD;*/
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: .8em;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+div.section1 {
+  background-color: #89B5DC;
+  /*background-image: url("img/tiedye.png");
+  background-size: cover;*/
+}
+
+div.section2 {
+  background-color: #ff751a;
+}
+
+div.tech {
+  background-color: #E6F6FC;
+  color: #075E96;
+}
+
+p.digstreaming {
+  color: #E6F6FC;
+}
+
+.sources {
+  font-size: .8em;
+}
+
+.small-intro {
+  font-size: .8em;
+}
+@media only screen and (max-width: 500px) {
+  div.section {
+    font-size: 2em;
+  }
