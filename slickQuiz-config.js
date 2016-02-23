@@ -6,67 +6,66 @@ var quizJSON = {
     "info": {
         "name":    "Let's see what you've learned.",
         "main":    "<p>Think you've learned a lot about the Beatles? Let's see.</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "",
+        "level1":  "Great job!",
+        "level2":  "Well done.",
+        "level3":  "Good effort.",
+        "level4":  "Go through the website again, maybe...",
+        "level5":  "Did you read the website...?" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Who was the original founder of the Beatles?",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Paul McCartney",      "correct": false},
+                {"option": "Ringo Starr",     "correct": false},
+                {"option": "John Lennon",      "correct": true},
+                {"option": "George Harrison",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Incorrect. John Lennon founded the Beatles.</span>" // no comma here
         },
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+          { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
+            "q": "When did the Beatles begin digitally stream their music?",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "2015",      "correct": false},
+                {"option": "2007",     "correct": false},
+                {"option": "2003",      "correct": true},
+                {"option": "2012",     "correct": false} // no comma here
             ],
-            "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Incorrect. The Beatles started digitally streaming their music on December 24, 2015.</span>" // no comma here
+          },
+          { // Question 3 - Multiple Choice, Multiple True Answers, Select All
+            "q": "Who was John Lennon's original partner for the Beatles?",
+            "a": [
+                {"option": "Paul McCartney",      "correct": true},
+                {"option": "Ringo Starr",     "correct": false},
+                {"option": "John Lennon",      "correct": false},
+                {"option": "George Harrison",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Incorrect. Paul McCartney was John Lennon's original partner.</span>" // no comma here
         },
-        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+          { // Question 4
+            "q": "Who was the lead guitarist of the Beatles?",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Paul McCartney",      "correct": false},
+                {"option": "Ringo Starr",     "correct": false},
+                {"option": "John Lennon",      "correct": false},
+                {"option": "George Harrison",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
-        },
-        { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
-            "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
-        },
-        { // Question 5
-            "q": "Is Earth bigger than a basketball?",
-            "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
-        } // no comma here
-    ]
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Incorrect. George Harrison was the lead guitarist of the Beatles.</span>"
+          },
+          { // Question 5
+              "q": "Are the Beatles on iTunes?",
+              "a": [
+                  {"option": "Yes",    "correct": true},
+                  {"option": "No",     "correct": false} // no comma here
+              ],
+              "correct": "<p><span>Correct!</span></p>",
+              "incorrect": "<p><span>Incorrect — they're on iTunes!</span></p>" // no comma here
+          } // no comma here
+      ]
 };

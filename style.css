@@ -111,7 +111,20 @@ p.digstreaming {
 .small-intro {
   font-size: .8em;
 }
+
+.intro1 {
+  color: #C8E9FC;
+}
+
+.intro2 {
+  color: #E4F1F9;
+}
 @media only screen and (max-width: 500px) {
   div.section {
     font-size: 1em;
   }
+  .sources {
+    font-size: .7em;
+  }
+
+}
